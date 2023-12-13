@@ -12,14 +12,22 @@
   "dependencies": {
     "@mantine/core": "^7.3.1",
     "@mantine/hooks": "^7.3.1",
+    "@mantine/notifications": "^7.3.1",
+    "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "@supabase/auth-helpers-react": "^0.4.2",
+    "@supabase/supabase-js": "^2.39.0",
+    "@tabler/icons-react": "^2.44.0",
+    "nanoid": "^5.0.4",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "validator": "^13.11.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/validator": "^13.11.7",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "husky": "^8.0.3",
